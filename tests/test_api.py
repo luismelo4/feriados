@@ -60,5 +60,33 @@ def test_municipalities_endpoint_exposes_holiday_metadata():
     assert not any(item["municipality"] == "Vila do" for item in data)
 
 
+def test_districts_endpoint_supports_discovery():
+    response = client.get("/districts")
+    assert response.status_code == 200
+    districts = {item["district"]: item for item in response.json()}
+    assert "Lisboa" in districts
+    assert districts["Lisboa"]["municipality_count"] > 1
+    assert "Lisboa" in districts["Lisboa"]["municipality_names"]
+
+
+def test_holidays_can_be_filtered_by_district():
+    response = client.get("/holidays", params={"year": 2026, "district": "Lisboa"})
+    assert response.status_code == 200
+    municipal = [item for item in response.json() if item["scope"] == "municipal"]
+    assert len(municipal) > 1
+    assert {item["district"] for item in municipal} == {"Lisboa"}
+
+
+def test_district_disambiguates_duplicate_municipality_names():
+    response = client.get(
+        "/holidays",
+        params={"year": 2026, "district": "Faro", "municipality": "Lagoa"},
+    )
+    assert response.status_code == 200
+    municipal = [item for item in response.json() if item["scope"] == "municipal"]
+    assert len(municipal) == 1
+    assert municipal[0]["district"] == "Faro"
+
+
 def test_coverage_has_308_municipalities():
     assert coverage().municipalities == 308

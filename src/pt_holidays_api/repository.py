@@ -5,7 +5,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from .calendar import resolve_rule
-from .models import Coverage, Holiday, MunicipalitySummary, RegionSummary, SourceRef
+from .models import Coverage, DistrictSummary, Holiday, MunicipalitySummary, RegionSummary, SourceRef
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 
@@ -64,6 +64,22 @@ def list_regions() -> list[RegionSummary]:
     ]
 
 
+def list_districts() -> list[DistrictSummary]:
+    districts: dict[str, list[dict]] = {}
+    for item in municipal_data():
+        districts.setdefault(item["district"], []).append(item)
+
+    return [
+        DistrictSummary(
+            district=district,
+            municipality_count=len(items),
+            municipality_names=sorted(item["municipality"] for item in items),
+            available_years=sorted({int(year) for item in items for year in item["years"]}),
+        )
+        for district, items in sorted(districts.items())
+    ]
+
+
 def list_municipalities() -> list[MunicipalitySummary]:
     return [
         MunicipalitySummary(
@@ -82,6 +98,7 @@ def list_municipalities() -> list[MunicipalitySummary]:
 def get_holidays(
     year: int,
     region: str | None = None,
+    district: str | None = None,
     municipality: str | None = None,
 ) -> list[Holiday]:
     holidays: list[Holiday] = []
@@ -98,8 +115,13 @@ def get_holidays(
             )
         )
 
-    if region:
-        region_key = _normalize(region)
+    regional_names = {_normalize(rule["region"]): rule["region"] for rule in regional_rules()}
+    effective_region = region
+    if not effective_region and district and _normalize(district) in regional_names:
+        effective_region = regional_names[_normalize(district)]
+
+    if effective_region:
+        region_key = _normalize(effective_region)
         for rule in regional_rules():
             if year < rule.get("start_year", 1900):
                 continue
@@ -116,25 +138,30 @@ def get_holidays(
                     )
                 )
 
-    if municipality:
-        municipality_key = _normalize(municipality)
+    if municipality or district:
+        municipality_key = _normalize(municipality) if municipality else None
+        district_key = _normalize(district) if district else None
         for item in municipal_data():
-            if _normalize(item["municipality"]) == municipality_key:
-                year_key = str(year)
-                if year_key not in item["years"]:
-                    continue
-                holidays.append(
-                    Holiday(
-                        date=item["years"][year_key],
-                        name=item["name"],
-                        scope="municipal",
-                        district=item["district"],
-                        municipality=item["municipality"],
-                        sources=item["sources"],
-                        verification_status=item["verification_status"],
-                        confidence=item["confidence"],
-                    )
+            if municipality_key and _normalize(item["municipality"]) != municipality_key:
+                continue
+            if district_key and _normalize(item["district"]) != district_key:
+                continue
+
+            year_key = str(year)
+            if year_key not in item["years"]:
+                continue
+            holidays.append(
+                Holiday(
+                    date=item["years"][year_key],
+                    name=item["name"],
+                    scope="municipal",
+                    district=item["district"],
+                    municipality=item["municipality"],
+                    sources=item["sources"],
+                    verification_status=item["verification_status"],
+                    confidence=item["confidence"],
                 )
+            )
 
     return sorted(holidays, key=lambda holiday: (holiday.date, holiday.scope, holiday.name))
 

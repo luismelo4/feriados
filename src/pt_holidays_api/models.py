@@ -51,6 +51,13 @@ class RegionSummary(BaseModel):
     holidays: list[RegionHolidaySummary]
 
 
+class DistrictSummary(BaseModel):
+    district: str
+    municipality_count: int
+    municipality_names: list[str]
+    available_years: list[int]
+
+
 class MunicipalitySummary(BaseModel):
     municipality: str
     district: str

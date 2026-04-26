@@ -92,10 +92,11 @@ Estados de verificacao:
 
 Para integrar a API sem hardcode:
 
-1. chamar `GET /regions` para descobrir as regioes suportadas;
-2. chamar `GET /municipalities` para descobrir os concelhos suportados;
-3. chamar `GET /holidays` com `year` e, se aplicavel, `region` e/ou
-   `municipality`.
+1. chamar `GET /regions` para descobrir as regioes autonomas suportadas;
+2. chamar `GET /districts` para descobrir distritos/regioes administrativas;
+3. chamar `GET /municipalities` para descobrir os concelhos suportados;
+4. chamar `GET /holidays` com `year` e, se aplicavel, `region`, `district`
+   e/ou `municipality`.
 
 ### `GET /health`
 
@@ -124,6 +125,7 @@ Parametros:
 | --- | --- | --- | --- |
 | `year` | Sim | `2026` | Ano entre 1900 e 2100. |
 | `region` | Nao | `Acores`, `Madeira` | Inclui feriados da regiao autonoma. |
+| `district` | Nao | `Lisboa`, `Porto`, `Faro` | Inclui feriados municipais desse distrito/regiao administrativa. |
 | `municipality` | Nao | `Lisboa`, `Porto`, `Coimbra` | Inclui feriado municipal do concelho. |
 
 Feriados nacionais de 2026:
@@ -136,6 +138,18 @@ Feriados nacionais + Lisboa:
 
 ```bash
 curl "https://feriados-red.vercel.app/holidays?year=2026&municipality=Lisboa"
+```
+
+Feriados nacionais + todos os feriados municipais do distrito de Lisboa:
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2026&district=Lisboa"
+```
+
+Feriado municipal de Lagoa no Algarve, distinguindo de Lagoa nos Acores:
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2026&district=Faro&municipality=Lagoa"
 ```
 
 Feriados nacionais + Madeira:
@@ -215,11 +229,34 @@ Exemplo parcial:
 ]
 ```
 
+### `GET /districts`
+
+Lista distritos/regioes administrativas disponiveis, incluindo Acores e
+Madeira enquanto agrupadores de municipios.
+
+```bash
+curl https://feriados-red.vercel.app/districts
+```
+
+Exemplo parcial:
+
+```json
+[
+  {
+    "district": "Lisboa",
+    "municipality_count": 16,
+    "municipality_names": ["Alenquer", "Amadora", "Arruda dos Vinhos"],
+    "available_years": [2026, 2027, 2028]
+  }
+]
+```
+
 ### `GET /regions`
 
-Lista as regioes suportadas e os feriados regionais conhecidos. Este endpoint
-serve para descobrir os valores validos para o parametro `region` em
-`GET /holidays`.
+Lista as regioes autonomas suportadas e os feriados regionais conhecidos. Este
+endpoint serve para descobrir os valores validos para o parametro `region` em
+`GET /holidays`. Para Lisboa, Porto, Braga e outros agrupadores municipais, usa
+`GET /districts`.
 
 ```bash
 curl https://feriados-red.vercel.app/regions
@@ -351,7 +388,7 @@ Resposta:
 
 ```json
 {
-  "detail": "Municipio sem dados para esse ano. Consulte /coverage e /municipalities."
+  "detail": "Distrito/municipio sem dados para esse ano. Consulte /coverage, /districts e /municipalities."
 }
 ```
 
