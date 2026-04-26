@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 
 from .models import Coverage, Holiday, MunicipalitySummary, RegionSummary, SourceRef
 from .repository import coverage, get_holidays, list_municipalities, list_regions, list_sources
@@ -9,6 +10,13 @@ app = FastAPI(
     title="PT Holidays API",
     version="0.1.0",
     description="Feriados nacionais, regionais e municipais de Portugal com proveniencia.",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET"],
+    allow_headers=["*"],
 )
 
 
