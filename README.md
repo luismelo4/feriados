@@ -71,7 +71,9 @@ O job faz:
    registadas;
 5. valida que os URLs das fontes respondem;
 6. corre os testes;
-7. faz commit e push automatico se houver correcao no dataset.
+7. faz commit e push automatico se houver correcao no dataset;
+8. dispara deploy de producao na Vercel se o secret `VERCEL_DEPLOY_HOOK_URL`
+   estiver configurado.
 
 ## Deploy gratis
 
@@ -88,6 +90,18 @@ Passos:
 3. manter as definicoes automaticas;
 4. fazer deploy;
 5. testar `/health` e `/docs` no URL gerado.
+
+Para deploy automatico depois do job semanal:
+
+1. na Vercel, abrir o projeto `feriados`;
+2. ir a **Settings > Git > Deploy Hooks**;
+3. criar um hook para a branch `main`;
+4. copiar o URL gerado;
+5. no GitHub, ir a **Settings > Secrets and variables > Actions**;
+6. criar o secret `VERCEL_DEPLOY_HOOK_URL` com esse URL.
+
+Mesmo sem esse hook, a integracao GitHub da Vercel deve fazer deploy quando ha
+push para `main`. O hook deixa esse comportamento explicito e facil de auditar.
 
 ### Alternativa: Render
 
