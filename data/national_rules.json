@@ -1,0 +1,15 @@
+[
+  {"name":"Ano Novo","rule":{"kind":"fixed","month":1,"day":1},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Sexta-feira Santa","rule":{"kind":"easter_offset","offset":-2},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Domingo de Pascoa","rule":{"kind":"easter_offset","offset":0},"sources":["dre_codigo_trabalho_234_235"],"verification_status":"verified","confidence":1.0},
+  {"name":"Dia da Liberdade","rule":{"kind":"fixed","month":4,"day":25},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Dia do Trabalhador","rule":{"kind":"fixed","month":5,"day":1},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Corpo de Deus","rule":{"kind":"easter_offset","offset":60},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Dia de Portugal","rule":{"kind":"fixed","month":6,"day":10},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Assuncao de Nossa Senhora","rule":{"kind":"fixed","month":8,"day":15},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Implantacao da Republica","rule":{"kind":"fixed","month":10,"day":5},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Todos os Santos","rule":{"kind":"fixed","month":11,"day":1},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Restauracao da Independencia","rule":{"kind":"fixed","month":12,"day":1},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Imaculada Conceicao","rule":{"kind":"fixed","month":12,"day":8},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0},
+  {"name":"Natal","rule":{"kind":"fixed","month":12,"day":25},"sources":["dre_codigo_trabalho_234_235","visitportugal_feriados"],"verification_status":"verified","confidence":1.0}
+]

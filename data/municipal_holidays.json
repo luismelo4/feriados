@@ -1,0 +1,5238 @@
+[
+  {
+    "municipality": "Abrantes",
+    "district": "Santarem",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-06-14",
+      "2027": "2027-06-14",
+      "2028": "2028-06-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Agueda",
+    "district": "Aveiro",
+    "name": "Pentecostes (Festa de Sao Geraldo)",
+    "years": {
+      "2026": "2026-05-25",
+      "2027": "2027-05-17",
+      "2028": "2028-06-05"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Aguiar da Beira",
+    "district": "Guarda",
+    "name": "Restauracao do concelho",
+    "years": {
+      "2026": "2026-02-10",
+      "2027": "2027-02-10",
+      "2028": "2028-02-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alandroal",
+    "district": "Evora",
+    "name": "Segunda-feira de Pascoela (Nossa Senhora da Boa Nova)",
+    "years": {
+      "2026": "2026-04-13",
+      "2027": "2027-04-05",
+      "2028": "2028-04-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Albergaria-a-Velha",
+    "district": "Aveiro",
+    "name": "Segunda-feira da Senhora do Socorro",
+    "years": {
+      "2026": "2026-08-17",
+      "2027": "2027-08-16",
+      "2028": "2028-08-21"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Albufeira",
+    "district": "Faro",
+    "name": "Foral de D. Manuel I",
+    "years": {
+      "2026": "2026-08-20",
+      "2027": "2027-08-20",
+      "2028": "2028-08-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alcacer do Sal",
+    "district": "Setubal",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alcanena",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alcobaca",
+    "district": "Leiria",
+    "name": "Sao Bernardo",
+    "years": {
+      "2026": "2026-08-20",
+      "2027": "2027-08-20",
+      "2028": "2028-08-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alcochete",
+    "district": "Setubal",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alcoutim",
+    "district": "Faro",
+    "name": "Festas de Alcoutim",
+    "years": {
+      "2026": "2026-09-11",
+      "2027": "2027-09-10",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alenquer",
+    "district": "Lisboa",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alfandega da Fe",
+    "district": "Braganca",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alijo",
+    "district": "Vila Real",
+    "name": "Sao Martinho",
+    "years": {
+      "2026": "2026-11-11",
+      "2027": "2027-11-11",
+      "2028": "2028-11-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Aljezur",
+    "district": "Faro",
+    "name": "Banho Santo",
+    "years": {
+      "2026": "2026-08-29",
+      "2027": "2027-08-29",
+      "2028": "2028-08-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Aljustrel",
+    "district": "Beja",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Almada",
+    "district": "Setubal",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Almeida",
+    "district": "Guarda",
+    "name": "Batalha do Coa (1810)",
+    "years": {
+      "2026": "2026-07-02",
+      "2027": "2027-07-02",
+      "2028": "2028-07-02"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Almeirim",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Almodovar",
+    "district": "Beja",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alpiarca",
+    "district": "Santarem",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-04-02",
+      "2027": "2027-04-02",
+      "2028": "2028-04-02"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alter do Chao",
+    "district": "Portalegre",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alvaiazere",
+    "district": "Leiria",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Alvito",
+    "district": "Beja",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Amadora",
+    "district": "Lisboa",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-09-11",
+      "2027": "2027-09-11",
+      "2028": "2028-09-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Amarante",
+    "district": "Porto",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-07-08",
+      "2027": "2027-07-08",
+      "2028": "2028-07-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Amares",
+    "district": "Braga",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Anadia",
+    "district": "Aveiro",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Angra do Heroismo",
+    "district": "Acores",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ansiao",
+    "district": "Leiria",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Arcos de Valdevez",
+    "district": "Viana do Castelo",
+    "name": "Sao Bento",
+    "years": {
+      "2026": "2026-07-11",
+      "2027": "2027-07-11",
+      "2028": "2028-07-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Arganil",
+    "district": "Coimbra",
+    "name": "Nossa Senhora do Mont`Alto",
+    "years": {
+      "2026": "2026-09-07",
+      "2027": "2027-09-07",
+      "2028": "2028-09-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Armamar",
+    "district": "Viseu",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Arouca",
+    "district": "Aveiro",
+    "name": "Rainha Santa Mafalda",
+    "years": {
+      "2026": "2026-05-02",
+      "2027": "2027-05-02",
+      "2028": "2028-05-02"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Arraiolos",
+    "district": "Evora",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Arronches",
+    "district": "Portalegre",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Arruda dos Vinhos",
+    "district": "Lisboa",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Aveiro",
+    "district": "Aveiro",
+    "name": "Santa Joana Princesa",
+    "years": {
+      "2026": "2026-05-12",
+      "2027": "2027-05-12",
+      "2028": "2028-05-12"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Avis",
+    "district": "Portalegre",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Azambuja",
+    "district": "Lisboa",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Baiao",
+    "district": "Porto",
+    "name": "Sao Bartolomeu",
+    "years": {
+      "2026": "2026-08-24",
+      "2027": "2027-08-24",
+      "2028": "2028-08-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Barcelos",
+    "district": "Braga",
+    "name": "Santa Cruz",
+    "years": {
+      "2026": "2026-05-03",
+      "2027": "2027-05-03",
+      "2028": "2028-05-03"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Barrancos",
+    "district": "Beja",
+    "name": "Festa de Nossa Senhora da Conceicao",
+    "years": {
+      "2026": "2026-08-28",
+      "2027": "2027-08-28",
+      "2028": "2028-08-28"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Barreiro",
+    "district": "Setubal",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-06-28",
+      "2027": "2027-06-28",
+      "2028": "2028-06-28"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Batalha",
+    "district": "Leiria",
+    "name": "Batalha de Aljubarrota",
+    "years": {
+      "2026": "2026-08-14",
+      "2027": "2027-08-14",
+      "2028": "2028-08-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Beja",
+    "district": "Beja",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Belmonte",
+    "district": "Castelo Branco",
+    "name": "Primeira missa no Brasil",
+    "years": {
+      "2026": "2026-04-26",
+      "2027": "2027-04-26",
+      "2028": "2028-04-26"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Benavente",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Bombarral",
+    "district": "Leiria",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Borba",
+    "district": "Evora",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Boticas",
+    "district": "Vila Real",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-06",
+      "2027": "2027-11-06",
+      "2028": "2028-11-06"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Braga",
+    "district": "Braga",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Braganca",
+    "district": "Braganca",
+    "name": "Nossa Senhora das Gracas",
+    "years": {
+      "2026": "2026-08-22",
+      "2027": "2027-08-22",
+      "2028": "2028-08-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cabeceiras de Basto",
+    "district": "Braga",
+    "name": "Sao Miguel Arcanjo",
+    "years": {
+      "2026": "2026-09-29",
+      "2027": "2027-09-29",
+      "2028": "2028-09-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cadaval",
+    "district": "Lisboa",
+    "name": "Restauracao do municipio",
+    "years": {
+      "2026": "2026-01-13",
+      "2027": "2027-01-13",
+      "2028": "2028-01-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Caldas da Rainha",
+    "district": "Leiria",
+    "name": "Fundacao da localidade pela rainha D. Leonor",
+    "years": {
+      "2026": "2026-05-15",
+      "2027": "2027-05-15",
+      "2028": "2028-05-15"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Calheta",
+    "district": "Madeira",
+    "name": "Santa Catarina",
+    "years": {
+      "2026": "2026-11-25",
+      "2027": "2027-11-25",
+      "2028": "2028-11-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Camara de Lobos",
+    "district": "Madeira",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-10-04",
+      "2027": "2027-10-04",
+      "2028": "2028-10-04"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Caminha",
+    "district": "Viana do Castelo",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Campo Maior",
+    "district": "Portalegre",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cantanhede",
+    "district": "Coimbra",
+    "name": "Sao Tiago",
+    "years": {
+      "2026": "2026-07-25",
+      "2027": "2027-07-25",
+      "2028": "2028-07-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Carrazeda de Ansiaes",
+    "district": "Braganca",
+    "name": "Elevacao a municipio",
+    "years": {
+      "2026": "2026-08-31",
+      "2027": "2027-08-31",
+      "2028": "2028-08-31"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Carregal do Sal",
+    "district": "Viseu",
+    "name": "Nossa Senhora das Febres",
+    "years": {
+      "2026": "2026-07-20",
+      "2027": "2027-07-19",
+      "2028": "2028-07-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cartaxo",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cascais",
+    "district": "Lisboa",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castanheira de Pera",
+    "district": "Leiria",
+    "name": "Fundacao do municipio",
+    "years": {
+      "2026": "2026-07-04",
+      "2027": "2027-07-04",
+      "2028": "2028-07-04"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castelo Branco",
+    "district": "Castelo Branco",
+    "name": "Nossa Senhora de Mercoles",
+    "years": {
+      "2026": "2026-04-07",
+      "2027": "2027-03-30",
+      "2028": "2028-04-18"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castelo de Paiva",
+    "district": "Aveiro",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castelo de Vide",
+    "district": "Portalegre",
+    "name": "Nossa Senhora da Luz",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castro Daire",
+    "district": "Viseu",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castro Marim",
+    "district": "Faro",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Castro Verde",
+    "district": "Beja",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Celorico da Beira",
+    "district": "Guarda",
+    "name": "Nascimento de Sacadura Cabral",
+    "years": {
+      "2026": "2026-05-23",
+      "2027": "2027-05-23",
+      "2028": "2028-05-23"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Celorico de Basto",
+    "district": "Braga",
+    "name": "Sao Tiago",
+    "years": {
+      "2026": "2026-07-25",
+      "2027": "2027-07-25",
+      "2028": "2028-07-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Chamusca",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Chaves",
+    "district": "Vila Real",
+    "name": "1ª Incursao Monarquica (1912)",
+    "years": {
+      "2026": "2026-07-08",
+      "2027": "2027-07-08",
+      "2028": "2028-07-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cinfaes",
+    "district": "Viseu",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Coimbra",
+    "district": "Coimbra",
+    "name": "Rainha Santa Isabel",
+    "years": {
+      "2026": "2026-07-04",
+      "2027": "2027-07-04",
+      "2028": "2028-07-04"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Condeixa-a-Nova",
+    "district": "Coimbra",
+    "name": "Santa Cristina",
+    "years": {
+      "2026": "2026-07-24",
+      "2027": "2027-07-24",
+      "2028": "2028-07-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Constancia",
+    "district": "Santarem",
+    "name": "Nossa Senhora da Boa Viage",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Coruche",
+    "district": "Santarem",
+    "name": "Nossa Senhora do Castelo",
+    "years": {
+      "2026": "2026-08-17",
+      "2027": "2027-08-17",
+      "2028": "2028-08-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Covilha",
+    "district": "Castelo Branco",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-10-20",
+      "2027": "2027-10-20",
+      "2028": "2028-10-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Crato",
+    "district": "Portalegre",
+    "name": "Sao Gregoriom",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Cuba",
+    "district": "Beja",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Elvas",
+    "district": "Portalegre",
+    "name": "Batalha das Linhas de Elvas",
+    "years": {
+      "2026": "2026-01-14",
+      "2027": "2027-01-14",
+      "2028": "2028-01-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Entroncamento",
+    "district": "Santarem",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-24",
+      "2027": "2027-11-24",
+      "2028": "2028-11-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Espinho",
+    "district": "Aveiro",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-06-16",
+      "2027": "2027-06-16",
+      "2028": "2028-06-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Esposende",
+    "district": "Braga",
+    "name": "Elevacao a categoria de vila",
+    "years": {
+      "2026": "2026-08-19",
+      "2027": "2027-08-19",
+      "2028": "2028-08-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Estarreja",
+    "district": "Aveiro",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Estremoz",
+    "district": "Evora",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Evora",
+    "district": "Evora",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Fafe",
+    "district": "Braga",
+    "name": "Feiras Francas",
+    "years": {
+      "2026": "2026-05-16",
+      "2027": "2027-05-16",
+      "2028": "2028-05-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Faro",
+    "district": "Faro",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-09-07",
+      "2027": "2027-09-07",
+      "2028": "2028-09-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Felgueiras",
+    "district": "Porto",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ferreira do Alentejo",
+    "district": "Beja",
+    "name": "Outorgacao do foral manuelino",
+    "years": {
+      "2026": "2026-03-05",
+      "2027": "2027-03-05",
+      "2028": "2028-03-05"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ferreira do Zezere",
+    "district": "Santarem",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Figueira da Foz",
+    "district": "Coimbra",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Figueira de Castelo Rodrigo",
+    "district": "Guarda",
+    "name": "Batalha de Salgadela (1664)",
+    "years": {
+      "2026": "2026-07-07",
+      "2027": "2027-07-07",
+      "2028": "2028-07-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Figueiro dos Vinhos",
+    "district": "Leiria",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Fornos de Algodres",
+    "district": "Guarda",
+    "name": "Sao Miguel Arcanjo",
+    "years": {
+      "2026": "2026-09-29",
+      "2027": "2027-09-29",
+      "2028": "2028-09-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Freixo de Espada a Cinta",
+    "district": "Braganca",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Fronteira",
+    "district": "Portalegre",
+    "name": "Batalha dos Atoleiros",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-04-06",
+      "2028": "2028-04-06"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Funchal",
+    "district": "Madeira",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-08-21",
+      "2027": "2027-08-21",
+      "2028": "2028-08-21"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Fundao",
+    "district": "Castelo Branco",
+    "name": "Santa Luzia",
+    "years": {
+      "2026": "2026-09-15",
+      "2027": "2027-09-15",
+      "2028": "2028-09-15"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Gaviao",
+    "district": "Portalegre",
+    "name": "Recebimento do foral manuelino",
+    "years": {
+      "2026": "2026-11-23",
+      "2027": "2027-11-23",
+      "2028": "2028-11-23"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Gois",
+    "district": "Coimbra",
+    "name": "Doacao de Gois a Anaia Vestrares",
+    "years": {
+      "2026": "2026-08-13",
+      "2027": "2027-08-13",
+      "2028": "2028-08-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Golega",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Gondomar",
+    "district": "Porto",
+    "name": "Nossa Senhora do Rosario",
+    "years": {
+      "2026": "2026-10-05",
+      "2027": "2027-10-04",
+      "2028": "2028-10-02"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Gouveia",
+    "district": "Guarda",
+    "name": "Nosso Senhor do Calvario",
+    "years": {
+      "2026": "2026-08-10",
+      "2027": "2027-08-09",
+      "2028": "2028-08-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Grandola",
+    "district": "Setubal",
+    "name": "Criacao do municipio atraves do foral",
+    "years": {
+      "2026": "2026-10-22",
+      "2027": "2027-10-22",
+      "2028": "2028-10-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Guarda",
+    "district": "Guarda",
+    "name": "Foral de D. Sancho I",
+    "years": {
+      "2026": "2026-11-27",
+      "2027": "2027-11-27",
+      "2028": "2028-11-27"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Guimaraes",
+    "district": "Braga",
+    "name": "Batalha de Sao Mamede",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Horta",
+    "district": "Acores",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Idanha-A-Nova",
+    "district": "Castelo Branco",
+    "name": "Nossa Senhora do Almortao",
+    "years": {
+      "2026": "2026-04-20",
+      "2027": "2027-04-12",
+      "2028": "2028-05-01"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ilhavo",
+    "district": "Aveiro",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lagoa",
+    "district": "Acores",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-04-11",
+      "2027": "2027-04-11",
+      "2028": "2028-04-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lagoa",
+    "district": "Faro",
+    "name": "Nossa Senhora da Luz",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lagos",
+    "district": "Faro",
+    "name": "Sao Goncalo de Lagos",
+    "years": {
+      "2026": "2026-10-27",
+      "2027": "2027-10-27",
+      "2028": "2028-10-27"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lajes das Flores",
+    "district": "Acores",
+    "name": "Nossa Senhora do Rosario",
+    "years": {
+      "2026": "2026-07-20",
+      "2027": "2027-07-19",
+      "2028": "2028-07-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lajes do Pico",
+    "district": "Acores",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lamego",
+    "district": "Viseu",
+    "name": "Nossa Senhora dos Remedios",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Leiria",
+    "district": "Leiria",
+    "name": "Elevacao a cidade e fundacao da diocese",
+    "years": {
+      "2026": "2026-05-22",
+      "2027": "2027-05-22",
+      "2028": "2028-05-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lisboa",
+    "district": "Lisboa",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Loule",
+    "district": "Faro",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Loures",
+    "district": "Lisboa",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-07-26",
+      "2027": "2027-07-26",
+      "2028": "2028-07-26"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lourinha",
+    "district": "Lisboa",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lousa",
+    "district": "Coimbra",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Lousada",
+    "district": "Porto",
+    "name": "Nosso Senhor dos Aflitos",
+    "years": {
+      "2026": "2026-07-27",
+      "2027": "2027-07-26",
+      "2028": "2028-07-31"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Macao",
+    "district": "Santarem",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Macedo de Cavaleiros",
+    "district": "Braganca",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Machico",
+    "district": "Madeira",
+    "name": "Criacao da Capitania de Machico",
+    "years": {
+      "2026": "2026-05-08",
+      "2027": "2027-05-08",
+      "2028": "2028-05-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Madalena",
+    "district": "Acores",
+    "name": "Santa Maria Madalena",
+    "years": {
+      "2026": "2026-07-22",
+      "2027": "2027-07-22",
+      "2028": "2028-07-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mafra",
+    "district": "Lisboa",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Maia",
+    "district": "Porto",
+    "name": "Nossa Senhora do Bom Despacho",
+    "years": {
+      "2026": "2026-07-13",
+      "2027": "2027-07-12",
+      "2028": "2028-07-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mangualde",
+    "district": "Viseu",
+    "name": "Nossa Senhora do Castelo",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Manteigas",
+    "district": "Guarda",
+    "name": "Outorgacao do foral",
+    "years": {
+      "2026": "2026-03-04",
+      "2027": "2027-03-04",
+      "2028": "2028-03-04"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Marco de Canaveses",
+    "district": "Porto",
+    "name": "Nossa Senhora do Castelinho",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Marinha Grande",
+    "district": "Leiria",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Marvao",
+    "district": "Portalegre",
+    "name": "Nossa Senhora da Estrela",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Matosinhos",
+    "district": "Porto",
+    "name": "Terca-feira de Pentecostes",
+    "years": {
+      "2026": "2026-05-26",
+      "2027": "2027-05-18",
+      "2028": "2028-06-06"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mealhada",
+    "district": "Aveiro",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Meda",
+    "district": "Guarda",
+    "name": "Sao Martinho",
+    "years": {
+      "2026": "2026-11-11",
+      "2027": "2027-11-11",
+      "2028": "2028-11-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Melgaco",
+    "district": "Viana do Castelo",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mertola",
+    "district": "Beja",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mesao Frio",
+    "district": "Vila Real",
+    "name": "Santo Andre",
+    "years": {
+      "2026": "2026-11-30",
+      "2027": "2027-11-30",
+      "2028": "2028-11-30"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mira",
+    "district": "Coimbra",
+    "name": "Sao Tome",
+    "years": {
+      "2026": "2026-07-25",
+      "2027": "2027-07-25",
+      "2028": "2028-07-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Miranda do Corvo",
+    "district": "Coimbra",
+    "name": "Nascimento de Jose Joaquim Pereira Falcao",
+    "years": {
+      "2026": "2026-06-01",
+      "2027": "2027-06-01",
+      "2028": "2028-06-01"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Miranda do Douro",
+    "district": "Braganca",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-07-10",
+      "2027": "2027-07-10",
+      "2028": "2028-07-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mirandela",
+    "district": "Braganca",
+    "name": "Outorgacao do Foral de D. Afonso III (1250)",
+    "years": {
+      "2026": "2026-05-25",
+      "2027": "2027-05-25",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mogadouro",
+    "district": "Braganca",
+    "name": "Feira dos Gorazes",
+    "years": {
+      "2026": "2026-10-15",
+      "2027": "2027-10-15",
+      "2028": "2028-10-15"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Moimenta da Beira",
+    "district": "Viseu",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Moita",
+    "district": "Setubal",
+    "name": "Festas em Honra de Nossa Senhora da Boa Viagem",
+    "years": {
+      "2026": "2026-09-15",
+      "2027": "2027-09-14",
+      "2028": "2028-09-12"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Moncao",
+    "district": "Viana do Castelo",
+    "name": "Outorgacao do foral",
+    "years": {
+      "2026": "2026-03-12",
+      "2027": "2027-03-12",
+      "2028": "2028-03-12"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Monchique",
+    "district": "Faro",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mondim de Basto",
+    "district": "Vila Real",
+    "name": "Sao Tiago",
+    "years": {
+      "2026": "2026-07-25",
+      "2027": "2027-07-25",
+      "2028": "2028-07-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Monforte",
+    "district": "Portalegre",
+    "name": "Segunda-feira de Pascoela (Nossa Senhora dos Prazeres)",
+    "years": {
+      "2026": "2026-04-13",
+      "2027": "2027-04-05",
+      "2028": "2028-04-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Montalegre",
+    "district": "Vila Real",
+    "name": "Atribuicao do foral",
+    "years": {
+      "2026": "2026-06-09",
+      "2027": "2027-06-09",
+      "2028": "2028-06-09"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Montemor-o-Novo",
+    "district": "Evora",
+    "name": "Sao Joao de Deus",
+    "years": {
+      "2026": "2026-03-08",
+      "2027": "2027-03-08",
+      "2028": "2028-03-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Montemor-o-Velho",
+    "district": "Coimbra",
+    "name": "Nossa Senhora da Vitoria",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Montijo",
+    "district": "Setubal",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mora",
+    "district": "Evora",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mortagua",
+    "district": "Viseu",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Moura",
+    "district": "Beja",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Mourao",
+    "district": "Evora",
+    "name": "Nossa Senhora das Candeias",
+    "years": {
+      "2026": "2026-02-02",
+      "2027": "2027-02-02",
+      "2028": "2028-02-02"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Murca",
+    "district": "Vila Real",
+    "name": "Fundacao do municipio",
+    "years": {
+      "2026": "2026-05-08",
+      "2027": "2027-05-08",
+      "2028": "2028-05-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Murtosa",
+    "district": "Aveiro",
+    "name": "Nossa Senhora da Natividade",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Nazare",
+    "district": "Leiria",
+    "name": "Nossa Senhora das Areias",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Nelas",
+    "district": "Viseu",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Nisa",
+    "district": "Portalegre",
+    "name": "Nossa Senhora da Graca",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Nordeste",
+    "district": "Acores",
+    "name": "Fundacao do municipio (1514)",
+    "years": {
+      "2026": "2026-07-18",
+      "2027": "2027-07-18",
+      "2028": "2028-07-18"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Obidos",
+    "district": "Leiria",
+    "name": "Tomada de Obidos aos mouros",
+    "years": {
+      "2026": "2026-01-11",
+      "2027": "2027-01-11",
+      "2028": "2028-01-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Odemira",
+    "district": "Beja",
+    "name": "Nossa Senhora da Piedade",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Odivelas",
+    "district": "Lisboa",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-19",
+      "2027": "2027-11-19",
+      "2028": "2028-11-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Oeiras",
+    "district": "Lisboa",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-06-07",
+      "2027": "2027-06-07",
+      "2028": "2028-06-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Oleiros",
+    "district": "Castelo Branco",
+    "name": "Santa Margarida",
+    "years": {
+      "2026": "2026-08-10",
+      "2027": "2027-08-09",
+      "2028": "2028-08-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Olhao",
+    "district": "Faro",
+    "name": "Revolta de Olhao contra os Franceses",
+    "years": {
+      "2026": "2026-06-16",
+      "2027": "2027-06-16",
+      "2028": "2028-06-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Oliveira de Azemeis",
+    "district": "Aveiro",
+    "name": "Nossa Senhora de La Salette",
+    "years": {
+      "2026": "2026-08-10",
+      "2027": "2027-08-09",
+      "2028": "2028-08-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Oliveira de Frades",
+    "district": "Viseu",
+    "name": "Restauracao do municipio",
+    "years": {
+      "2026": "2026-10-07",
+      "2027": "2027-10-07",
+      "2028": "2028-10-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Oliveira do Bairro",
+    "district": "Aveiro",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Oliveira do Hospital",
+    "district": "Coimbra",
+    "name": "Recebimento da noticia da Implantacao da Republica",
+    "years": {
+      "2026": "2026-10-07",
+      "2027": "2027-10-07",
+      "2028": "2028-10-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ourem",
+    "district": "Santarem",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-06-20",
+      "2027": "2027-06-20",
+      "2028": "2028-06-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ourique",
+    "district": "Beja",
+    "name": "Nossa Senhora da Cola",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ovar",
+    "district": "Aveiro",
+    "name": "Sao Cristovao",
+    "years": {
+      "2026": "2026-07-25",
+      "2027": "2027-07-25",
+      "2028": "2028-07-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Pacos de Ferreira",
+    "district": "Porto",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-06",
+      "2027": "2027-11-06",
+      "2028": "2028-11-06"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Palmela",
+    "district": "Setubal",
+    "name": "Atribuicao do foral manuelino",
+    "years": {
+      "2026": "2026-06-01",
+      "2027": "2027-06-01",
+      "2028": "2028-06-01"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Pampilhosa da Serra",
+    "district": "Coimbra",
+    "name": "Restauracao dos titulos de vila isenta",
+    "years": {
+      "2026": "2026-04-10",
+      "2027": "2027-04-10",
+      "2028": "2028-04-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Paredes de Coura",
+    "district": "Viana do Castelo",
+    "name": "Sao Lourenco",
+    "years": {
+      "2026": "2026-08-10",
+      "2027": "2027-08-10",
+      "2028": "2028-08-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Paredes",
+    "district": "Porto",
+    "name": "Divino Salvador",
+    "years": {
+      "2026": "2026-07-20",
+      "2027": "2027-07-19",
+      "2028": "2028-07-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Pedrogao Grande",
+    "district": "Leiria",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-07-24",
+      "2027": "2027-07-24",
+      "2028": "2028-07-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Penacova",
+    "district": "Coimbra",
+    "name": "Nascimento de Antonio Jose de Almeida",
+    "years": {
+      "2026": "2026-07-17",
+      "2027": "2027-07-17",
+      "2028": "2028-07-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Penafiel",
+    "district": "Porto",
+    "name": "Sao Martinho",
+    "years": {
+      "2026": "2026-11-11",
+      "2027": "2027-11-11",
+      "2028": "2028-11-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Penalva do Castelo",
+    "district": "Viseu",
+    "name": "Sao Genesio",
+    "years": {
+      "2026": "2026-08-25",
+      "2027": "2027-08-25",
+      "2028": "2028-08-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Penamacor",
+    "district": "Castelo Branco",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Penedono",
+    "district": "Viseu",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Penela",
+    "district": "Coimbra",
+    "name": "Sao Miguel Arcanjo",
+    "years": {
+      "2026": "2026-09-29",
+      "2027": "2027-09-29",
+      "2028": "2028-09-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Peniche",
+    "district": "Leiria",
+    "name": "Nossa Senhora da Boa Viagem",
+    "years": {
+      "2026": "2026-08-03",
+      "2027": "2027-08-02",
+      "2028": "2028-08-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Peso da Regua",
+    "district": "Vila Real",
+    "name": "Nossa Senhora do Socorro",
+    "years": {
+      "2026": "2026-08-16",
+      "2027": "2027-08-16",
+      "2028": "2028-08-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Pinhel",
+    "district": "Guarda",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-08-25",
+      "2027": "2027-08-25",
+      "2028": "2028-08-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Pombal",
+    "district": "Leiria",
+    "name": "Sao Martinho",
+    "years": {
+      "2026": "2026-11-11",
+      "2027": "2027-11-11",
+      "2028": "2028-11-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ponta Delgada",
+    "district": "Acores",
+    "name": "Senhor Santo Cristo dos Milagres",
+    "years": {
+      "2026": "2026-05-11",
+      "2027": "2027-05-03",
+      "2028": "2028-05-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ponta do Sol",
+    "district": "Madeira",
+    "name": "Nossa Senhora da Luz",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ponte da Barca",
+    "district": "Viana do Castelo",
+    "name": "Sao Bartolomeu",
+    "years": {
+      "2026": "2026-08-24",
+      "2027": "2027-08-24",
+      "2028": "2028-08-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ponte de Lima",
+    "district": "Viana do Castelo",
+    "name": "Nossa Senhora das Dores",
+    "years": {
+      "2026": "2026-09-20",
+      "2027": "2027-09-20",
+      "2028": "2028-09-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ponte de Sor",
+    "district": "Portalegre",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Portalegre",
+    "district": "Portalegre",
+    "name": "Elevacao a cidade e fundacao da diocese",
+    "years": {
+      "2026": "2026-05-23",
+      "2027": "2027-05-23",
+      "2028": "2028-05-23"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Portel",
+    "district": "Evora",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Portimao",
+    "district": "Faro",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-12-11",
+      "2027": "2027-12-11",
+      "2028": "2028-12-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Porto de Mos",
+    "district": "Leiria",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Porto Moniz",
+    "district": "Madeira",
+    "name": "Santa Maria Madalena",
+    "years": {
+      "2026": "2026-07-22",
+      "2027": "2027-07-22",
+      "2028": "2028-07-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Porto Santo",
+    "district": "Madeira",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Porto",
+    "district": "Porto",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Povoa de Lanhoso",
+    "district": "Braga",
+    "name": "Sao Jose",
+    "years": {
+      "2026": "2026-03-19",
+      "2027": "2027-03-19",
+      "2028": "2028-03-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Povoa de Varzim",
+    "district": "Porto",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Povoacao",
+    "district": "Acores",
+    "name": "Oitava do Corpo de Deus",
+    "years": {
+      "2026": "2026-06-05",
+      "2027": "2027-05-28",
+      "2028": "2028-06-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Praia da Vitoria",
+    "district": "Acores",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-06-20",
+      "2027": "2027-06-20",
+      "2028": "2028-06-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Proenca-a-Nova",
+    "district": "Castelo Branco",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Quarteira",
+    "district": "Faro",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Redondo",
+    "district": "Evora",
+    "name": "Segunda-feira de Pascoa",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Reguengos de Monsaraz",
+    "district": "Evora",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Resende",
+    "district": "Viseu",
+    "name": "Sao Miguel Arcanjo",
+    "years": {
+      "2026": "2026-09-29",
+      "2027": "2027-09-29",
+      "2028": "2028-09-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ribeira Brava",
+    "district": "Madeira",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ribeira de Pena",
+    "district": "Vila Real",
+    "name": "Nossa Senhora do Socorro",
+    "years": {
+      "2026": "2026-08-16",
+      "2027": "2027-08-16",
+      "2028": "2028-08-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Ribeira Grande",
+    "district": "Acores",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Rio Maior",
+    "district": "Santarem",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-06",
+      "2027": "2027-11-06",
+      "2028": "2028-11-06"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sabrosa",
+    "district": "Vila Real",
+    "name": "Nossa Senhora do Rosario",
+    "years": {
+      "2026": "2026-09-08",
+      "2027": "2027-09-08",
+      "2028": "2028-09-08"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sabugal",
+    "district": "Guarda",
+    "name": "Segunda-feira de Pascoela (Nossa Senhora dos Prazeres / Nossa Senhora da Graca)",
+    "years": {
+      "2026": "2026-04-13",
+      "2027": "2027-04-05",
+      "2028": "2028-04-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Salvaterra de Magos",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santa Comba Dao",
+    "district": "Viseu",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santa Cruz da Graciosa",
+    "district": "Acores",
+    "name": "Senhor Santo Cristo dos Milagres",
+    "years": {
+      "2026": "2026-08-10",
+      "2027": "2027-08-09",
+      "2028": "2028-08-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santa Cruz das Flores",
+    "district": "Acores",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santa Cruz",
+    "district": "Madeira",
+    "name": "Santo Amaro",
+    "years": {
+      "2026": "2026-01-15",
+      "2027": "2027-01-15",
+      "2028": "2028-01-15"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santa Maria da Feira",
+    "district": "Aveiro",
+    "name": "Sao Sebastiao",
+    "years": {
+      "2026": "2026-01-20",
+      "2027": "2027-01-20",
+      "2028": "2028-01-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santa Marta de Penaguiao",
+    "district": "Vila Real",
+    "name": "Restauracao do municipio",
+    "years": {
+      "2026": "2026-01-13",
+      "2027": "2027-01-13",
+      "2028": "2028-01-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santana",
+    "district": "Madeira",
+    "name": "Fundacao do municipio (1835)",
+    "years": {
+      "2026": "2026-05-25",
+      "2027": "2027-05-25",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santarem",
+    "district": "Santarem",
+    "name": "Sao Jose",
+    "years": {
+      "2026": "2026-03-19",
+      "2027": "2027-03-19",
+      "2028": "2028-03-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santiago do Cacem",
+    "district": "Setubal",
+    "name": "Sao Tiago",
+    "years": {
+      "2026": "2026-07-25",
+      "2027": "2027-07-25",
+      "2028": "2028-07-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Santo Tirso",
+    "district": "Porto",
+    "name": "Sao Bento",
+    "years": {
+      "2026": "2026-07-11",
+      "2027": "2027-07-11",
+      "2028": "2028-07-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sao Bras de Alportel",
+    "district": "Faro",
+    "name": "Elevacao a municipio",
+    "years": {
+      "2026": "2026-06-01",
+      "2027": "2027-06-01",
+      "2028": "2028-06-01"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sao Joao da",
+    "district": "Madeira",
+    "name": "Aveiro Elevacao a cidade e fundacao do municipio",
+    "years": {
+      "2026": "2026-10-11",
+      "2027": "2027-10-11",
+      "2028": "2028-10-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sao Joao da Pesqueira",
+    "district": "Viseu",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sao Pedro do Sul",
+    "district": "Viseu",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sao Roque do Pico",
+    "district": "Acores",
+    "name": "Sao Roque",
+    "years": {
+      "2026": "2026-08-16",
+      "2027": "2027-08-16",
+      "2028": "2028-08-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sao Vicente",
+    "district": "Madeira",
+    "name": "Sao Vicente",
+    "years": {
+      "2026": "2026-01-22",
+      "2027": "2027-01-22",
+      "2028": "2028-01-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sardoal",
+    "district": "Santarem",
+    "name": "Elevacao a categoria de vila",
+    "years": {
+      "2026": "2026-09-22",
+      "2027": "2027-09-22",
+      "2028": "2028-09-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Satao",
+    "district": "Viseu",
+    "name": "Sao Bernardo",
+    "years": {
+      "2026": "2026-08-20",
+      "2027": "2027-08-20",
+      "2028": "2028-08-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Seia",
+    "district": "Guarda",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-07-03",
+      "2027": "2027-07-03",
+      "2028": "2028-07-03"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Seixal",
+    "district": "Setubal",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sernancelhe",
+    "district": "Viseu",
+    "name": "Festa de N.ª Srª ao Pe da Cruz",
+    "years": {
+      "2026": "2026-05-03",
+      "2027": "2027-05-03",
+      "2028": "2028-05-03"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Serpa",
+    "district": "Beja",
+    "name": "Nossa Senhora de Guadalupe",
+    "years": {
+      "2026": "2026-04-07",
+      "2027": "2027-03-30",
+      "2028": "2028-04-18"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Serta",
+    "district": "Castelo Branco",
+    "name": "Sao Nuno de Santa Maria",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sesimbra",
+    "district": "Setubal",
+    "name": "Nosso Senhor Jesus das Chagas",
+    "years": {
+      "2026": "2026-05-04",
+      "2027": "2027-05-04",
+      "2028": "2028-05-04"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Setubal",
+    "district": "Setubal",
+    "name": "Nascimento de Bocage",
+    "years": {
+      "2026": "2026-09-15",
+      "2027": "2027-09-15",
+      "2028": "2028-09-15"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sever do Vouga",
+    "district": "Aveiro",
+    "name": "Sao Mateus",
+    "years": {
+      "2026": "2026-09-21",
+      "2027": "2027-09-21",
+      "2028": "2028-09-21"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Silves",
+    "district": "Faro",
+    "name": "Conquista da cidade aos mouros",
+    "years": {
+      "2026": "2026-09-03",
+      "2027": "2027-09-03",
+      "2028": "2028-09-03"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sines",
+    "district": "Setubal",
+    "name": "Elevacao a vila",
+    "years": {
+      "2026": "2026-11-24",
+      "2027": "2027-11-24",
+      "2028": "2028-11-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sintra",
+    "district": "Lisboa",
+    "name": "Sao Pedro",
+    "years": {
+      "2026": "2026-06-29",
+      "2027": "2027-06-29",
+      "2028": "2028-06-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sobral de Monte Agraco",
+    "district": "Lisboa",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Soure",
+    "district": "Coimbra",
+    "name": "Sao Mateus",
+    "years": {
+      "2026": "2026-09-21",
+      "2027": "2027-09-21",
+      "2028": "2028-09-21"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Sousel",
+    "district": "Portalegre",
+    "name": "Nossa Senhora do Carmo da Serra de Sao Miguel",
+    "years": {
+      "2026": "2026-04-06",
+      "2027": "2027-03-29",
+      "2028": "2028-04-17"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Tabua",
+    "district": "Coimbra",
+    "name": "Restauracao da Comarca",
+    "years": {
+      "2026": "2026-04-10",
+      "2027": "2027-04-10",
+      "2028": "2028-04-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Tabuaco",
+    "district": "Viseu",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Tarouca",
+    "district": "Viseu",
+    "name": "Sao Miguel Arcanjo",
+    "years": {
+      "2026": "2026-09-29",
+      "2027": "2027-09-29",
+      "2028": "2028-09-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Tavira",
+    "district": "Faro",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Terras de Bouro",
+    "district": "Braga",
+    "name": "Foral de D. Manuel I",
+    "years": {
+      "2026": "2026-10-20",
+      "2027": "2027-10-20",
+      "2028": "2028-10-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Tomar",
+    "district": "Santarem",
+    "name": "Fundacao do Castelo Templario",
+    "years": {
+      "2026": "2026-03-01",
+      "2027": "2027-03-01",
+      "2028": "2028-03-01"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Tondela",
+    "district": "Viseu",
+    "name": "Santa Eufemia",
+    "years": {
+      "2026": "2026-09-16",
+      "2027": "2027-09-16",
+      "2028": "2028-09-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Torre de Moncorvo",
+    "district": "Braganca",
+    "name": "Sao Jose",
+    "years": {
+      "2026": "2026-03-19",
+      "2027": "2027-03-19",
+      "2028": "2028-03-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Torres Novas",
+    "district": "Santarem",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Torres Vedras",
+    "district": "Lisboa",
+    "name": "Sao Martinho",
+    "years": {
+      "2026": "2026-11-11",
+      "2027": "2027-11-11",
+      "2028": "2028-11-11"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Trancoso",
+    "district": "Guarda",
+    "name": "Batalha de Sao Marcos (1385)",
+    "years": {
+      "2026": "2026-05-29",
+      "2027": "2027-05-29",
+      "2028": "2028-05-29"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Trofa",
+    "district": "Porto",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-19",
+      "2027": "2027-11-19",
+      "2028": "2028-11-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vagos",
+    "district": "Aveiro",
+    "name": "Pentecostes / Divino Espirito Santo",
+    "years": {
+      "2026": "2026-05-25",
+      "2027": "2027-05-17",
+      "2028": "2028-06-05"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vale de Cambra",
+    "district": "Aveiro",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Valenca do Minho",
+    "district": "Viana do Castelo",
+    "name": "Sao Teotonio",
+    "years": {
+      "2026": "2026-02-18",
+      "2027": "2027-02-18",
+      "2028": "2028-02-18"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Valongo",
+    "district": "Porto",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Valpacos",
+    "district": "Vila Real",
+    "name": "Criacao do municipio",
+    "years": {
+      "2026": "2026-11-06",
+      "2027": "2027-11-06",
+      "2028": "2028-11-06"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Velas",
+    "district": "Acores",
+    "name": "Sao Jorge",
+    "years": {
+      "2026": "2026-04-23",
+      "2027": "2027-04-23",
+      "2028": "2028-04-23"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vendas Novas",
+    "district": "Evora",
+    "name": "Elevacao a municipio",
+    "years": {
+      "2026": "2026-09-07",
+      "2027": "2027-09-07",
+      "2028": "2028-09-07"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Viana do Alentejo",
+    "district": "Evora",
+    "name": "Restauracao do municipio",
+    "years": {
+      "2026": "2026-01-13",
+      "2027": "2027-01-13",
+      "2028": "2028-01-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Viana do Castelo",
+    "district": "Viana do Castelo",
+    "name": "Nossa Senhora da Agonia",
+    "years": {
+      "2026": "2026-08-20",
+      "2027": "2027-08-20",
+      "2028": "2028-08-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vidigueira",
+    "district": "Beja",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vieira do Minho",
+    "district": "Braga",
+    "name": "Feira da Ladra",
+    "years": {
+      "2026": "2026-10-05",
+      "2027": "2027-10-04",
+      "2028": "2028-10-09"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila de Rei",
+    "district": "Castelo Branco",
+    "name": "Recebimento do foral de D. Dinis",
+    "years": {
+      "2026": "2026-09-19",
+      "2027": "2027-09-19",
+      "2028": "2028-09-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila do Bispo",
+    "district": "Faro",
+    "name": "Sao Vicente",
+    "years": {
+      "2026": "2026-01-22",
+      "2027": "2027-01-22",
+      "2028": "2028-01-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila do Conde",
+    "district": "Porto",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila do",
+    "district": "Porto",
+    "name": "Acores Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Flor",
+    "district": "Braganca",
+    "name": "Sao Bartolomeu",
+    "years": {
+      "2026": "2026-08-24",
+      "2027": "2027-08-24",
+      "2028": "2028-08-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Franca de Xira",
+    "district": "Lisboa",
+    "name": "Quinta-feira da Ascensao",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-06",
+      "2028": "2028-05-25"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Franca do Campo",
+    "district": "Acores",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova da Barquinha",
+    "district": "Santarem",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova de Cerveira",
+    "district": "Viana do Castelo",
+    "name": "Recebimento do foral manuelino",
+    "years": {
+      "2026": "2026-10-01",
+      "2027": "2027-10-01",
+      "2028": "2028-10-01"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova de Famalicao",
+    "district": "Braga",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova de Foz Coa",
+    "district": "Guarda",
+    "name": "Outorgacao do foral de D. Dinis",
+    "years": {
+      "2026": "2026-05-21",
+      "2027": "2027-05-21",
+      "2028": "2028-05-21"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova de Gaia",
+    "district": "Porto",
+    "name": "Sao Joao Baptista",
+    "years": {
+      "2026": "2026-06-24",
+      "2027": "2027-06-24",
+      "2028": "2028-06-24"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova de Paiva",
+    "district": "Viseu",
+    "name": "Estabelecimento e denominacao da sede de concelho",
+    "years": {
+      "2026": "2026-03-02",
+      "2027": "2027-03-02",
+      "2028": "2028-03-02"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova de Poiares",
+    "district": "Coimbra",
+    "name": "Restauracao do municipio",
+    "years": {
+      "2026": "2026-01-13",
+      "2027": "2027-01-13",
+      "2028": "2028-01-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Nova do Corvo",
+    "district": "Acores",
+    "name": "Elevacao a vila e sede de concelho",
+    "years": {
+      "2026": "2026-06-20",
+      "2027": "2027-06-20",
+      "2028": "2028-06-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Pouca de Aguiar",
+    "district": "Vila Real",
+    "name": "Atribuicao do foral manuelino",
+    "years": {
+      "2026": "2026-06-22",
+      "2027": "2027-06-22",
+      "2028": "2028-06-22"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Real de Santo Antonio",
+    "district": "Faro",
+    "name": "Elevacao a cidade",
+    "years": {
+      "2026": "2026-05-13",
+      "2027": "2027-05-13",
+      "2028": "2028-05-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Real",
+    "district": "Vila Real",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Velha de Rodao",
+    "district": "Castelo Branco",
+    "name": "Nossa Senhora da Alagada",
+    "years": {
+      "2026": "2026-08-24",
+      "2027": "2027-08-23",
+      "2028": "2028-08-28"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Verde",
+    "district": "Braga",
+    "name": "Santo Antonio",
+    "years": {
+      "2026": "2026-06-13",
+      "2027": "2027-06-13",
+      "2028": "2028-06-13"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vila Vicosa",
+    "district": "Evora",
+    "name": "Nascimento de Couto Jardim",
+    "years": {
+      "2026": "2026-08-16",
+      "2027": "2027-08-16",
+      "2028": "2028-08-16"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vimioso",
+    "district": "Braganca",
+    "name": "Sao Lourenco",
+    "years": {
+      "2026": "2026-08-10",
+      "2027": "2027-08-10",
+      "2028": "2028-08-10"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vinhais",
+    "district": "Braganca",
+    "name": "Outorgacao do foral manuelino",
+    "years": {
+      "2026": "2026-05-20",
+      "2027": "2027-05-20",
+      "2028": "2028-05-20"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Viseu",
+    "district": "Viseu",
+    "name": "Sao Mateus",
+    "years": {
+      "2026": "2026-09-21",
+      "2027": "2027-09-21",
+      "2028": "2028-09-21"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vizela",
+    "district": "Braga",
+    "name": "Restauracao do municipio",
+    "years": {
+      "2026": "2026-03-19",
+      "2027": "2027-03-19",
+      "2028": "2028-03-19"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  },
+  {
+    "municipality": "Vouzela",
+    "district": "Viseu",
+    "name": "Sao Frei Gil",
+    "years": {
+      "2026": "2026-05-14",
+      "2027": "2027-05-14",
+      "2028": "2028-05-14"
+    },
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  }
+]

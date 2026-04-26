@@ -1,0 +1,2 @@
+"""Portugal holidays API package."""
+
