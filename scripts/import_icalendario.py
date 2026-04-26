@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import unicodedata
@@ -85,7 +86,7 @@ def parse_row(match: re.Match[str]) -> dict:
     }
 
 
-def main() -> int:
+def load_municipal_holidays() -> list[dict]:
     html = urlopen(URL, timeout=30).read().decode("utf-8")
     text = re.sub(r"<[^>]+>", "\n", html)
     text = strip_accents(re.sub(r"\s+", " ", text))
@@ -102,9 +103,33 @@ def main() -> int:
     )
 
     parsed = [parse_row(match) for match in row_pattern.finditer(rows_text)]
+    if len(parsed) != 308:
+        raise ValueError(f"Expected 308 municipalities, got {len(parsed)}")
+    return parsed
 
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Import municipal holidays from iCalendario.")
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Fetch and compare with data/municipal_holidays.json without writing.",
+    )
+    args = parser.parse_args()
+
+    parsed = load_municipal_holidays()
     output = DATA_DIR / "municipal_holidays.json"
-    output.write_text(json.dumps(parsed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    new_content = json.dumps(parsed, ensure_ascii=False, indent=2) + "\n"
+
+    if args.check:
+        current = output.read_text(encoding="utf-8")
+        if current != new_content:
+            print("data/municipal_holidays.json is out of date. Run without --check to refresh.")
+            return 1
+        print("OK: municipal holidays match the current iCalendario source.")
+        return 0
+
+    output.write_text(new_content, encoding="utf-8")
     print(f"Wrote {len(parsed)} municipalities to {output}")
     return 0
 

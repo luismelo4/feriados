@@ -27,7 +27,8 @@
   {
     "id": "alraa_dia_acores",
     "name": "Assembleia Legislativa da Regiao Autonoma dos Acores - Dia da Regiao Autonoma dos Acores",
-    "url": "https://www.alra.pt/index.php/artigossite/1768-dia-da-regiao-autonoma-dos-acores-2025"
+    "url": "https://www.alra.pt/index.php/artigossite/1768-dia-da-regiao-autonoma-dos-acores-2025",
+    "allow_insecure_tls": true
   },
   {
     "id": "joram_autonomia_madeira_2024",
