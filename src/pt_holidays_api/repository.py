@@ -5,7 +5,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from .calendar import resolve_rule
-from .models import Coverage, Holiday, SourceRef
+from .models import Coverage, Holiday, MunicipalitySummary, RegionSummary, SourceRef
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 
@@ -40,14 +40,41 @@ def list_sources() -> list[SourceRef]:
     return list(sources().values())
 
 
-def list_municipalities() -> list[dict]:
+def list_regions() -> list[RegionSummary]:
+    regions: dict[str, list[dict]] = {}
+    for rule in regional_rules():
+        regions.setdefault(rule["region"], []).append(rule)
+
     return [
-        {
-            "municipality": item["municipality"],
-            "district": item["district"],
-            "available_years": sorted(int(year) for year in item["years"]),
-            "verification_status": item["verification_status"],
-        }
+        RegionSummary(
+            region=region,
+            available_years="calculated by rule",
+            holidays=[
+                {
+                    "name": rule["name"],
+                    "start_year": rule.get("start_year", 1900),
+                    "sources": rule["sources"],
+                    "verification_status": rule["verification_status"],
+                    "confidence": rule["confidence"],
+                }
+                for rule in sorted(items, key=lambda item: (item.get("start_year", 1900), item["name"]))
+            ],
+        )
+        for region, items in sorted(regions.items())
+    ]
+
+
+def list_municipalities() -> list[MunicipalitySummary]:
+    return [
+        MunicipalitySummary(
+            municipality=item["municipality"],
+            district=item["district"],
+            holiday_name=item["name"],
+            available_years=sorted(int(year) for year in item["years"]),
+            sources=item["sources"],
+            verification_status=item["verification_status"],
+            confidence=item["confidence"],
+        )
         for item in sorted(municipal_data(), key=lambda row: row["municipality"])
     ]
 

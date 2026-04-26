@@ -71,6 +71,12 @@ def parse_row(match: re.Match[str]) -> dict:
     district = match.group("district").strip()
     name = match.group("name").strip()
 
+    # "Vila do Porto Acores ..." can be misread because "Porto" is also a district.
+    if municipality == "Vila do" and district == "Porto" and name.startswith("Acores "):
+        municipality = "Vila do Porto"
+        district = "Acores"
+        name = name.removeprefix("Acores ").strip()
+
     years = {}
     for year, (day, month_name) in zip((2026, 2027, 2028), dates, strict=True):
         years[str(year)] = date(year, MONTHS[month_name], int(day)).isoformat()

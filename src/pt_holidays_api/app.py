@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException, Query
 
-from .models import Coverage, Holiday, SourceRef
-from .repository import coverage, get_holidays, list_municipalities, list_sources
+from .models import Coverage, Holiday, MunicipalitySummary, RegionSummary, SourceRef
+from .repository import coverage, get_holidays, list_municipalities, list_regions, list_sources
 
 app = FastAPI(
     title="PT Holidays API",
@@ -32,8 +32,13 @@ def holidays(
     return result
 
 
-@app.get("/municipalities")
-def municipalities() -> list[dict]:
+@app.get("/regions", response_model=list[RegionSummary])
+def regions() -> list[RegionSummary]:
+    return list_regions()
+
+
+@app.get("/municipalities", response_model=list[MunicipalitySummary])
+def municipalities() -> list[MunicipalitySummary]:
     return list_municipalities()
 
 

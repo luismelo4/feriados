@@ -39,5 +39,26 @@ def test_madeira_regional_holidays_include_autonomy_from_2025():
     assert regional["Primeira Oitava"] == "2026-12-26"
 
 
+def test_regions_endpoint_supports_discovery():
+    response = client.get("/regions")
+    assert response.status_code == 200
+    regions = {item["region"]: item for item in response.json()}
+    assert set(regions) == {"Acores", "Madeira"}
+    assert regions["Madeira"]["type"] == "autonomous_region"
+    assert "Dia da Autonomia" in {holiday["name"] for holiday in regions["Madeira"]["holidays"]}
+
+
+def test_municipalities_endpoint_exposes_holiday_metadata():
+    response = client.get("/municipalities")
+    assert response.status_code == 200
+    data = response.json()
+    lisboa = next(item for item in data if item["municipality"] == "Lisboa")
+    assert lisboa["holiday_name"] == "Santo Antonio"
+    assert lisboa["available_years"] == [2026, 2027, 2028]
+    assert len(lisboa["sources"]) >= 2
+    assert any(item["municipality"] == "Vila do Porto" for item in data)
+    assert not any(item["municipality"] == "Vila do" for item in data)
+
+
 def test_coverage_has_308_municipalities():
     assert coverage().municipalities == 308

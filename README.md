@@ -88,6 +88,15 @@ Estados de verificacao:
 
 ## Endpoints
 
+### Fluxo recomendado
+
+Para integrar a API sem hardcode:
+
+1. chamar `GET /regions` para descobrir as regioes suportadas;
+2. chamar `GET /municipalities` para descobrir os concelhos suportados;
+3. chamar `GET /holidays` com `year` e, se aplicavel, `region` e/ou
+   `municipality`.
+
 ### `GET /health`
 
 Verifica se a API esta operacional.
@@ -179,7 +188,8 @@ Exemplo parcial de resposta:
 
 ### `GET /municipalities`
 
-Lista os concelhos disponiveis e os anos cobertos.
+Lista os concelhos disponiveis, o nome do feriado municipal, anos cobertos e
+fontes associadas.
 
 ```bash
 curl https://feriados-red.vercel.app/municipalities
@@ -192,8 +202,60 @@ Exemplo parcial:
   {
     "municipality": "Abrantes",
     "district": "Santarem",
+    "holiday_name": "Elevacao a cidade",
     "available_years": [2026, 2027, 2028],
-    "verification_status": "cross_checked"
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  }
+]
+```
+
+### `GET /regions`
+
+Lista as regioes suportadas e os feriados regionais conhecidos. Este endpoint
+serve para descobrir os valores validos para o parametro `region` em
+`GET /holidays`.
+
+```bash
+curl https://feriados-red.vercel.app/regions
+```
+
+Resposta:
+
+```json
+[
+  {
+    "region": "Acores",
+    "type": "autonomous_region",
+    "available_years": "calculated by rule",
+    "holidays": [
+      {
+        "name": "Dia da Regiao Autonoma dos Acores",
+        "start_year": 1980,
+        "sources": ["alraa_dia_acores"],
+        "verification_status": "verified",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "region": "Madeira",
+    "type": "autonomous_region",
+    "available_years": "calculated by rule",
+    "holidays": [
+      {
+        "name": "Dia da Autonomia",
+        "start_year": 2025,
+        "sources": ["joram_autonomia_madeira_2024"],
+        "verification_status": "verified",
+        "confidence": 0.95
+      }
+    ]
   }
 ]
 ```
