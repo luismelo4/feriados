@@ -17,7 +17,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "OPTIONS"],
     allow_headers=["*"],
 )
 
@@ -35,6 +35,9 @@ CACHEABLE_PATHS = {
 @app.middleware("http")
 async def add_cache_headers(request: Request, call_next) -> Response:
     response = await call_next(request)
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "*"
     if request.method == "GET" and request.url.path in CACHEABLE_PATHS and response.status_code == 200:
         response.headers["Cache-Control"] = (
             "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"

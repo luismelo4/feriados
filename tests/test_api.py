@@ -13,6 +13,18 @@ def test_health():
     assert response.json() == {"status": "ok"}
 
 
+def test_browser_headers_are_present_on_holidays():
+    response = client.get(
+        "/holidays",
+        params={"year": 2026},
+        headers={"Origin": "http://127.0.0.1:5174"},
+    )
+    assert response.status_code == 200
+    assert response.headers["access-control-allow-origin"] == "*"
+    assert "GET" in response.headers["access-control-allow-methods"]
+    assert response.headers["cache-control"].startswith("public, max-age=300")
+
+
 def test_national_holidays_2026_include_easter_based_dates():
     holidays = get_holidays(2026)
     by_name = {holiday.name: holiday.date.isoformat() for holiday in holidays}
