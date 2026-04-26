@@ -9,27 +9,291 @@ O projeto foi desenhado para dados auditaveis: cada feriado devolvido inclui
 - feriados regionais dos Acores e da Madeira;
 - feriados municipais para os 308 municipios, com datas de 2026, 2027 e 2028.
 
-## Arranque local
+## Testar Online
+
+Podes usar o deploy publico para testar a API sem instalar nada:
+
+```text
+https://feriados-red.vercel.app
+```
+
+Documentacao interativa:
+
+```text
+https://feriados-red.vercel.app/docs
+```
+
+OpenAPI schema:
+
+```text
+https://feriados-red.vercel.app/openapi.json
+```
+
+## Arranque Local
 
 ```powershell
 python -m pip install -e .[dev]
 python -m uvicorn pt_holidays_api.app:app --reload
 ```
 
-## Endpoints
+Base URL local:
 
 ```text
-GET /health
-GET /holidays?year=2026
-GET /holidays?year=2026&region=Acores
-GET /holidays?year=2026&region=Madeira
-GET /holidays?year=2026&municipality=Lisboa
-GET /municipalities
-GET /sources
-GET /coverage
+http://127.0.0.1:8000
 ```
 
-## Fontes usadas
+## Modelo de Dados
+
+Cada feriado devolvido tem este formato:
+
+```json
+{
+  "date": "2026-06-13",
+  "name": "Santo Antonio",
+  "scope": "municipal",
+  "region": null,
+  "district": "Lisboa",
+  "municipality": "Lisboa",
+  "sources": [
+    "icalendario_municipais",
+    "dirportugal_municipais",
+    "aspl_municipais_pdf"
+  ],
+  "verification_status": "cross_checked",
+  "confidence": 0.85
+}
+```
+
+Campos principais:
+
+| Campo | Tipo | Descricao |
+| --- | --- | --- |
+| `date` | string ISO `YYYY-MM-DD` | Data do feriado. |
+| `name` | string | Nome do feriado. |
+| `scope` | `national`, `regional`, `municipal` | Ambito do feriado. |
+| `region` | string ou null | Regiao autonoma quando aplicavel. |
+| `district` | string ou null | Distrito/regiao do municipio quando aplicavel. |
+| `municipality` | string ou null | Concelho quando aplicavel. |
+| `sources` | array de strings | IDs das fontes usadas. Ver `GET /sources`. |
+| `verification_status` | string | Estado de verificacao. |
+| `confidence` | number | Confianca interna entre `0` e `1`. |
+
+Estados de verificacao:
+
+| Estado | Significado |
+| --- | --- |
+| `verified` | Confirmado por fonte legal/oficial ou regra legal estavel. |
+| `cross_checked` | Confirmado por duas ou mais fontes secundarias concordantes. |
+| `needs_primary_source` | Dado util, mas ainda precisa de confirmacao primaria. |
+
+## Endpoints
+
+### `GET /health`
+
+Verifica se a API esta operacional.
+
+```bash
+curl https://feriados-red.vercel.app/health
+```
+
+Resposta:
+
+```json
+{
+  "status": "ok"
+}
+```
+
+### `GET /holidays`
+
+Lista feriados de um ano. Este endpoint devolve sempre os feriados nacionais e,
+opcionalmente, acrescenta feriados regionais e/ou municipais.
+
+Parametros:
+
+| Parametro | Obrigatorio | Exemplo | Descricao |
+| --- | --- | --- | --- |
+| `year` | Sim | `2026` | Ano entre 1900 e 2100. |
+| `region` | Nao | `Acores`, `Madeira` | Inclui feriados da regiao autonoma. |
+| `municipality` | Nao | `Lisboa`, `Porto`, `Coimbra` | Inclui feriado municipal do concelho. |
+
+Feriados nacionais de 2026:
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2026"
+```
+
+Feriados nacionais + Lisboa:
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2026&municipality=Lisboa"
+```
+
+Feriados nacionais + Madeira:
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2026&region=Madeira"
+```
+
+Feriados nacionais + Acores + Ponta Delgada:
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2026&region=Acores&municipality=Ponta%20Delgada"
+```
+
+Exemplo parcial de resposta:
+
+```json
+[
+  {
+    "date": "2026-01-01",
+    "name": "Ano Novo",
+    "scope": "national",
+    "region": null,
+    "district": null,
+    "municipality": null,
+    "sources": [
+      "dre_codigo_trabalho_234_235",
+      "visitportugal_feriados"
+    ],
+    "verification_status": "verified",
+    "confidence": 1.0
+  },
+  {
+    "date": "2026-06-13",
+    "name": "Santo Antonio",
+    "scope": "municipal",
+    "region": null,
+    "district": "Lisboa",
+    "municipality": "Lisboa",
+    "sources": [
+      "icalendario_municipais",
+      "dirportugal_municipais",
+      "aspl_municipais_pdf"
+    ],
+    "verification_status": "cross_checked",
+    "confidence": 0.85
+  }
+]
+```
+
+### `GET /municipalities`
+
+Lista os concelhos disponiveis e os anos cobertos.
+
+```bash
+curl https://feriados-red.vercel.app/municipalities
+```
+
+Exemplo parcial:
+
+```json
+[
+  {
+    "municipality": "Abrantes",
+    "district": "Santarem",
+    "available_years": [2026, 2027, 2028],
+    "verification_status": "cross_checked"
+  }
+]
+```
+
+### `GET /sources`
+
+Lista as fontes registadas. Os IDs desta resposta aparecem no campo `sources`
+dos feriados.
+
+```bash
+curl https://feriados-red.vercel.app/sources
+```
+
+Exemplo parcial:
+
+```json
+[
+  {
+    "id": "dre_codigo_trabalho_234_235",
+    "name": "Diario da Republica - Codigo do Trabalho, artigos 234.º e 235.º",
+    "url": "https://files.dre.pt/gratuitos/1s/2009/02/03000.pdf"
+  }
+]
+```
+
+### `GET /coverage`
+
+Mostra a cobertura atual do dataset.
+
+```bash
+curl https://feriados-red.vercel.app/coverage
+```
+
+Resposta:
+
+```json
+{
+  "national_years": "calculated by rule",
+  "regional_years": "calculated by rule",
+  "municipal_years": [2026, 2027, 2028],
+  "municipalities": 308,
+  "verification_policy": "verified = legal/official primary source plus secondary check; cross_checked = two or more concordant secondary sources; needs_primary_source = useful data but still needs municipal/legal confirmation"
+}
+```
+
+## Exemplos de Integracao
+
+### JavaScript
+
+```js
+const params = new URLSearchParams({
+  year: "2026",
+  municipality: "Lisboa",
+});
+
+const response = await fetch(`https://feriados-red.vercel.app/holidays?${params}`);
+const holidays = await response.json();
+
+console.log(holidays);
+```
+
+### Python
+
+```python
+import requests
+
+response = requests.get(
+    "https://feriados-red.vercel.app/holidays",
+    params={"year": 2026, "municipality": "Lisboa"},
+    timeout=30,
+)
+response.raise_for_status()
+
+holidays = response.json()
+print(holidays)
+```
+
+### PowerShell
+
+```powershell
+Invoke-RestMethod "https://feriados-red.vercel.app/holidays?year=2026&municipality=Lisboa"
+```
+
+## Erros
+
+Se for pedido um municipio sem dados para o ano indicado, a API devolve `404`.
+
+```bash
+curl "https://feriados-red.vercel.app/holidays?year=2025&municipality=Lisboa"
+```
+
+Resposta:
+
+```json
+{
+  "detail": "Municipio sem dados para esse ano. Consulte /coverage e /municipalities."
+}
+```
+
+## Fontes Usadas
 
 As fontes tambem estao registadas em `data/sources.json` e sao expostas por
 `GET /sources`.
@@ -46,7 +310,7 @@ As fontes tambem estao registadas em `data/sources.json` e sao expostas por
 | `dre_madeira_primeira_oitava` | Primeira Oitava na Madeira | Diario da Republica: https://files.dre.pt/1s/2002/11/258a00/71837183.pdf |
 | `rtp_madeira_dia_regiao` | Confirmacao publica do Dia da Regiao da Madeira | RTP Madeira: https://madeira.rtp.pt/sociedade/madeira-assinala-hoje-o-dia-da-regiao/ |
 
-## Verificacao e correcao automatica
+## Verificacao e Correcao Automatica
 
 O projeto inclui scripts para voltar a consultar as fontes, validar os dados e
 corrigir o dataset local quando houver divergencias:
@@ -75,47 +339,7 @@ O job faz:
 8. dispara deploy de producao na Vercel se o secret `VERCEL_DEPLOY_HOOK_URL`
    estiver configurado.
 
-## Deploy gratis
-
-### Opcao recomendada: Vercel
-
-Este projeto inclui `api/index.py`, `requirements.txt` e `vercel.json`, por isso
-pode ser importado diretamente na Vercel a partir do repositorio GitHub. A API e
-stateless e funciona bem como serverless function.
-
-Passos:
-
-1. abrir https://vercel.com/new;
-2. importar `luismelo4/feriados`;
-3. manter as definicoes automaticas;
-4. fazer deploy;
-5. testar `/health` e `/docs` no URL gerado.
-
-Para deploy automatico depois do job semanal:
-
-1. na Vercel, abrir o projeto `feriados`;
-2. ir a **Settings > Git > Deploy Hooks**;
-3. criar um hook para a branch `main`;
-4. copiar o URL gerado;
-5. no GitHub, ir a **Settings > Secrets and variables > Actions**;
-6. criar o secret `VERCEL_DEPLOY_HOOK_URL` com esse URL.
-
-Mesmo sem esse hook, a integracao GitHub da Vercel deve fazer deploy quando ha
-push para `main`. O hook deixa esse comportamento explicito e facil de auditar.
-
-### Alternativa: Render
-
-Tambem existe `render.yaml`. No Render, criar um Web Service a partir do GitHub.
-O build command e `pip install -e .` e o start command e:
-
-```text
-uvicorn pt_holidays_api.app:app --host 0.0.0.0 --port $PORT
-```
-
-Render e muito simples para FastAPI tradicional, mas confirma sempre o plano
-gratis atual antes de depender dele em producao.
-
-## Nota legal
+## Nota Legal
 
 Esta API nao substitui a consulta da legislacao aplicavel, editais municipais ou
 publicacoes oficiais. Para uso critico, validar cada municipio contra fonte
