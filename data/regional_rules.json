@@ -3,7 +3,7 @@
     "region": "Acores",
     "name": "Dia da Regiao Autonoma dos Acores",
     "rule": {"kind": "easter_offset", "offset": 50},
-    "sources": ["alraa_dia_acores"],
+    "sources": ["dre_acores_feriado_regional", "alraa_dia_acores"],
     "verification_status": "verified",
     "confidence": 0.95,
     "start_year": 1980
@@ -12,7 +12,7 @@
     "region": "Madeira",
     "name": "Dia da Autonomia",
     "rule": {"kind": "fixed", "month": 4, "day": 2},
-    "sources": ["joram_autonomia_madeira_2024"],
+    "sources": ["dre_madeira_autonomia_2024", "joram_autonomia_madeira_2024"],
     "verification_status": "verified",
     "confidence": 0.95,
     "start_year": 2025
@@ -21,9 +21,9 @@
     "region": "Madeira",
     "name": "Dia da Regiao Autonoma da Madeira e das Comunidades Madeirenses",
     "rule": {"kind": "fixed", "month": 7, "day": 1},
-    "sources": ["rtp_madeira_dia_regiao"],
-    "verification_status": "cross_checked",
-    "confidence": 0.85,
+    "sources": ["joram_madeira_feriados_regionais_2012", "dre_madeira_primeira_oitava", "rtp_madeira_dia_regiao"],
+    "verification_status": "verified",
+    "confidence": 0.95,
     "start_year": 1979
   },
   {

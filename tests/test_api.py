@@ -1,10 +1,60 @@
 from fastapi.testclient import TestClient
+import pytest
 
 from pt_holidays_api.app import app
-from pt_holidays_api.repository import coverage, get_holidays
+from pt_holidays_api.repository import coverage, get_holidays, list_districts
 
 
 client = TestClient(app)
+
+
+MAINLAND_DISTRICTS = {
+    "Aveiro",
+    "Beja",
+    "Braga",
+    "Braganca",
+    "Castelo Branco",
+    "Coimbra",
+    "Evora",
+    "Faro",
+    "Guarda",
+    "Leiria",
+    "Lisboa",
+    "Portalegre",
+    "Porto",
+    "Santarem",
+    "Setubal",
+    "Viana do Castelo",
+    "Vila Real",
+    "Viseu",
+}
+
+EXPECTED_REGIONAL_HOLIDAYS = {
+    2026: {
+        "Acores": [("2026-05-25", "Dia da Regiao Autonoma dos Acores")],
+        "Madeira": [
+            ("2026-04-02", "Dia da Autonomia"),
+            ("2026-07-01", "Dia da Regiao Autonoma da Madeira e das Comunidades Madeirenses"),
+            ("2026-12-26", "Primeira Oitava"),
+        ],
+    },
+    2027: {
+        "Acores": [("2027-05-17", "Dia da Regiao Autonoma dos Acores")],
+        "Madeira": [
+            ("2027-04-02", "Dia da Autonomia"),
+            ("2027-07-01", "Dia da Regiao Autonoma da Madeira e das Comunidades Madeirenses"),
+            ("2027-12-26", "Primeira Oitava"),
+        ],
+    },
+    2028: {
+        "Acores": [("2028-06-05", "Dia da Regiao Autonoma dos Acores")],
+        "Madeira": [
+            ("2028-04-02", "Dia da Autonomia"),
+            ("2028-07-01", "Dia da Regiao Autonoma da Madeira e das Comunidades Madeirenses"),
+            ("2028-12-26", "Primeira Oitava"),
+        ],
+    },
+}
 
 
 def test_health():
@@ -86,6 +136,30 @@ def test_district_alone_does_not_propagate_municipal_holidays():
     assert response.status_code == 200
     municipal = [item for item in response.json() if item["scope"] == "municipal"]
     assert municipal == []
+
+
+def test_all_mainland_districts_have_no_district_level_holidays():
+    district_names = {district.district for district in list_districts()}
+    assert MAINLAND_DISTRICTS.issubset(district_names)
+    assert district_names - MAINLAND_DISTRICTS == {"Acores", "Madeira"}
+
+    for year in EXPECTED_REGIONAL_HOLIDAYS:
+        for district in MAINLAND_DISTRICTS:
+            holidays = get_holidays(year, district=district)
+            assert [holiday for holiday in holidays if holiday.scope != "national"] == []
+
+
+@pytest.mark.parametrize("year,regions", EXPECTED_REGIONAL_HOLIDAYS.items())
+def test_autonomous_regions_have_only_expected_regional_holidays(year, regions):
+    for region, expected in regions.items():
+        holidays = get_holidays(year, district=region)
+        actual = [
+            (holiday.date.isoformat(), holiday.name)
+            for holiday in holidays
+            if holiday.scope == "regional"
+        ]
+        assert actual == expected
+        assert [holiday for holiday in holidays if holiday.scope == "municipal"] == []
 
 
 def test_autonomous_region_district_includes_only_regional_holidays():

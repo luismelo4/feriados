@@ -277,7 +277,7 @@ Resposta:
       {
         "name": "Dia da Regiao Autonoma dos Acores",
         "start_year": 1980,
-        "sources": ["alraa_dia_acores"],
+        "sources": ["dre_acores_feriado_regional", "alraa_dia_acores"],
         "verification_status": "verified",
         "confidence": 0.95
       }
@@ -291,7 +291,7 @@ Resposta:
       {
         "name": "Dia da Autonomia",
         "start_year": 2025,
-        "sources": ["joram_autonomia_madeira_2024"],
+        "sources": ["dre_madeira_autonomia_2024", "joram_autonomia_madeira_2024"],
         "verification_status": "verified",
         "confidence": 0.95
       }
@@ -408,7 +408,10 @@ As fontes tambem estao registadas em `data/sources.json` e sao expostas por
 | `dirportugal_municipais` | Confirmacao secundaria municipal | dirPortugal: https://dirportugal.com/feriados-municipais/ |
 | `aspl_municipais_pdf` | Confirmacao secundaria municipal | ASPL PDF: https://www.aspl.pt/images/aspl_pdfs/Feriados%20Municipais%20Nacionais.pdf |
 | `alraa_dia_acores` | Feriado regional dos Acores | ALRAA: https://www.alra.pt/index.php/artigossite/1768-dia-da-regiao-autonoma-dos-acores-2025 |
+| `dre_acores_feriado_regional` | Base legal do feriado regional dos Acores | Diario da Republica, Decreto Legislativo Regional n. 23/2021/A, artigo 6: https://files.dre.pt/1s/2021/07/14100/0005000056.pdf |
 | `joram_autonomia_madeira_2024` | Dia da Autonomia da Madeira, desde 2025 | JORAM: https://joram.madeira.gov.pt/joram/Iserie/Ano%20de%202024/ISerie-206-2024-12-16sup.pdf |
+| `dre_madeira_autonomia_2024` | Base legal do Dia da Autonomia da Madeira | Diario da Republica, Decreto Legislativo Regional n. 17/2024/M: https://files.diariodarepublica.pt/1s/2024/12/24300/0000900010.pdf |
+| `joram_madeira_feriados_regionais_2012` | 1 de julho e 26 de dezembro na Madeira | JORAM, Decreto Legislativo Regional n. 33/2012/M: https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202012/ISerie-172-2012-12-21.pdf |
 | `dre_madeira_primeira_oitava` | Primeira Oitava na Madeira | Diario da Republica: https://files.dre.pt/1s/2002/11/258a00/71837183.pdf |
 | `rtp_madeira_dia_regiao` | Confirmacao publica do Dia da Regiao da Madeira | RTP Madeira: https://madeira.rtp.pt/sociedade/madeira-assinala-hoje-o-dia-da-regiao/ |
 

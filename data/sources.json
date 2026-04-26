@@ -1,7 +1,7 @@
 [
   {
     "id": "dre_codigo_trabalho_234_235",
-    "name": "Diario da Republica - Codigo do Trabalho, artigos 234.º e 235.º",
+    "name": "Diario da Republica - Codigo do Trabalho, artigos 234 e 235",
     "url": "https://files.dre.pt/gratuitos/1s/2009/02/03000.pdf"
   },
   {
@@ -31,13 +31,28 @@
     "allow_insecure_tls": true
   },
   {
+    "id": "dre_acores_feriado_regional",
+    "name": "Diario da Republica - Decreto Legislativo Regional n. 23/2021/A, artigo 6",
+    "url": "https://files.dre.pt/1s/2021/07/14100/0005000056.pdf"
+  },
+  {
     "id": "joram_autonomia_madeira_2024",
     "name": "Jornal Oficial da Regiao Autonoma da Madeira - Feriado do Dia da Autonomia",
     "url": "https://joram.madeira.gov.pt/joram/Iserie/Ano%20de%202024/ISerie-206-2024-12-16sup.pdf"
   },
   {
+    "id": "dre_madeira_autonomia_2024",
+    "name": "Diario da Republica - Decreto Legislativo Regional n. 17/2024/M",
+    "url": "https://files.diariodarepublica.pt/1s/2024/12/24300/0000900010.pdf"
+  },
+  {
+    "id": "joram_madeira_feriados_regionais_2012",
+    "name": "Jornal Oficial da Regiao Autonoma da Madeira - Decreto Legislativo Regional n. 33/2012/M",
+    "url": "https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202012/ISerie-172-2012-12-21.pdf"
+  },
+  {
     "id": "dre_madeira_primeira_oitava",
-    "name": "Diario da Republica - Decreto Legislativo Regional n.º 27/2002/M",
+    "name": "Diario da Republica - Decreto Legislativo Regional n. 27/2002/M",
     "url": "https://files.dre.pt/1s/2002/11/258a00/71837183.pdf"
   },
   {
