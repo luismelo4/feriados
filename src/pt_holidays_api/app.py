@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.requests import Request
+from starlette.responses import Response
 
 from .models import Coverage, DistrictSummary, Holiday, MunicipalitySummary, RegionSummary, SourceRef
 from .repository import coverage, get_holidays, list_districts, list_municipalities, list_regions, list_sources
@@ -18,6 +20,26 @@ app.add_middleware(
     allow_methods=["GET"],
     allow_headers=["*"],
 )
+
+CACHEABLE_PATHS = {
+    "/coverage",
+    "/districts",
+    "/health",
+    "/holidays",
+    "/municipalities",
+    "/regions",
+    "/sources",
+}
+
+
+@app.middleware("http")
+async def add_cache_headers(request: Request, call_next) -> Response:
+    response = await call_next(request)
+    if request.method == "GET" and request.url.path in CACHEABLE_PATHS and response.status_code == 200:
+        response.headers["Cache-Control"] = (
+            "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"
+        )
+    return response
 
 
 @app.get("/health")
