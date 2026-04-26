@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 import pytest
 
 from pt_holidays_api.app import app
-from pt_holidays_api.repository import coverage, get_holidays, list_districts
+from pt_holidays_api.repository import coverage, get_holidays, list_districts, municipal_data
 
 
 client = TestClient(app)
@@ -147,6 +147,18 @@ def test_all_mainland_districts_have_no_district_level_holidays():
         for district in MAINLAND_DISTRICTS:
             holidays = get_holidays(year, district=district)
             assert [holiday for holiday in holidays if holiday.scope != "national"] == []
+
+
+def test_no_district_has_unanimous_municipal_holiday_coverage():
+    years = {"2026", "2027", "2028"}
+    for district in list_districts():
+        district_rows = [item for item in municipal_data() if item["district"] == district.district]
+        for year in years:
+            dates: dict[str, list[str]] = {}
+            for item in district_rows:
+                dates.setdefault(item["years"][year], []).append(item["municipality"])
+
+            assert all(len(municipalities) < district.municipality_count for municipalities in dates.values())
 
 
 @pytest.mark.parametrize("year,regions", EXPECTED_REGIONAL_HOLIDAYS.items())

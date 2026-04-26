@@ -149,6 +149,13 @@ curl "https://feriados-red.vercel.app/holidays?year=2026&district=Lisboa"
 Esta chamada nao inclui feriados municipais, porque os feriados municipais sao
 por concelho, nao por distrito.
 
+Regra de abrangencia: a API so trata um feriado como `regional` quando existe
+base legal/oficial para a regiao autonoma. Feriados municipais nunca sao
+promovidos automaticamente a feriado de distrito. Se no futuro houver um
+agrupamento em que 100% dos concelhos tenham o mesmo feriado municipal, isso
+deve ser auditado explicitamente antes de ser apresentado como feriado de
+abrangencia regional/distrital.
+
 Feriado municipal de Lagoa no Algarve, distinguindo de Lagoa nos Acores:
 
 ```bash
