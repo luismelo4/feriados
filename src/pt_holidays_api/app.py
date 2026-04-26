@@ -55,10 +55,10 @@ def holidays(
     municipality: str | None = Query(None, description="Nome do concelho"),
 ) -> list[Holiday]:
     result = get_holidays(year=year, region=region, district=district, municipality=municipality)
-    if (municipality or district) and not any(item.scope == "municipal" for item in result):
+    if municipality and not any(item.scope == "municipal" for item in result):
         raise HTTPException(
             status_code=404,
-            detail="Distrito/municipio sem dados para esse ano. Consulte /coverage, /districts e /municipalities.",
+            detail="Municipio sem dados para esse ano. Consulte /coverage, /districts e /municipalities.",
         )
     return result
 

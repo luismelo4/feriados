@@ -125,8 +125,8 @@ Parametros:
 | --- | --- | --- | --- |
 | `year` | Sim | `2026` | Ano entre 1900 e 2100. |
 | `region` | Nao | `Acores`, `Madeira` | Inclui feriados da regiao autonoma. |
-| `district` | Nao | `Lisboa`, `Porto`, `Faro` | Inclui feriados municipais desse distrito/regiao administrativa. |
-| `municipality` | Nao | `Lisboa`, `Porto`, `Coimbra` | Inclui feriado municipal do concelho. |
+| `district` | Nao | `Lisboa`, `Porto`, `Faro` | Filtra/desambigua concelhos. Sozinho nao inclui feriados municipais. |
+| `municipality` | Nao | `Lisboa`, `Porto`, `Coimbra` | Inclui o feriado municipal desse concelho. |
 
 Feriados nacionais de 2026:
 
@@ -140,11 +140,14 @@ Feriados nacionais + Lisboa:
 curl "https://feriados-red.vercel.app/holidays?year=2026&municipality=Lisboa"
 ```
 
-Feriados nacionais + todos os feriados municipais do distrito de Lisboa:
+Feriados nacionais, com distrito apenas como contexto de descoberta:
 
 ```bash
 curl "https://feriados-red.vercel.app/holidays?year=2026&district=Lisboa"
 ```
+
+Esta chamada nao inclui feriados municipais, porque os feriados municipais sao
+por concelho, nao por distrito.
 
 Feriado municipal de Lagoa no Algarve, distinguindo de Lagoa nos Acores:
 
@@ -388,7 +391,7 @@ Resposta:
 
 ```json
 {
-  "detail": "Distrito/municipio sem dados para esse ano. Consulte /coverage, /districts e /municipalities."
+  "detail": "Municipio sem dados para esse ano. Consulte /coverage, /districts e /municipalities."
 }
 ```
 

@@ -69,12 +69,42 @@ def test_districts_endpoint_supports_discovery():
     assert "Lisboa" in districts["Lisboa"]["municipality_names"]
 
 
-def test_holidays_can_be_filtered_by_district():
+def test_district_alone_does_not_propagate_municipal_holidays():
     response = client.get("/holidays", params={"year": 2026, "district": "Lisboa"})
     assert response.status_code == 200
     municipal = [item for item in response.json() if item["scope"] == "municipal"]
-    assert len(municipal) > 1
-    assert {item["district"] for item in municipal} == {"Lisboa"}
+    assert municipal == []
+
+
+def test_autonomous_region_district_includes_only_regional_holidays():
+    response = client.get("/holidays", params={"year": 2026, "district": "Madeira"})
+    assert response.status_code == 200
+    data = response.json()
+    assert any(item["scope"] == "regional" for item in data)
+    assert not any(item["scope"] == "municipal" for item in data)
+
+
+def test_vila_real_district_does_not_inherit_murca_holiday():
+    district_response = client.get("/holidays", params={"year": 2026, "district": "Vila Real"})
+    assert district_response.status_code == 200
+    district_dates = {
+        item["date"]
+        for item in district_response.json()
+        if item["scope"] == "municipal"
+    }
+    assert "2026-05-08" not in district_dates
+
+    municipality_response = client.get(
+        "/holidays",
+        params={"year": 2026, "district": "Vila Real", "municipality": "Murca"},
+    )
+    assert municipality_response.status_code == 200
+    murca_holidays = [
+        item
+        for item in municipality_response.json()
+        if item["scope"] == "municipal" and item["date"] == "2026-05-08"
+    ]
+    assert len(murca_holidays) == 1
 
 
 def test_district_disambiguates_duplicate_municipality_names():

@@ -138,7 +138,7 @@ def get_holidays(
                     )
                 )
 
-    if municipality or district:
+    if municipality:
         municipality_key = _normalize(municipality) if municipality else None
         district_key = _normalize(district) if district else None
         for item in municipal_data():
