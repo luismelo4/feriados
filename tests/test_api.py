@@ -119,6 +119,28 @@ def test_vila_real_district_does_not_inherit_murca_holiday():
     assert len(murca_holidays) == 1
 
 
+def test_vila_real_municipality_has_santo_antonio():
+    response = client.get(
+        "/holidays",
+        params={"year": 2026, "district": "Vila Real", "municipality": "Vila Real"},
+    )
+    assert response.status_code == 200
+    municipal = [item for item in response.json() if item["scope"] == "municipal"]
+    assert municipal == [
+        {
+            "date": "2026-06-13",
+            "name": "Santo Antonio",
+            "scope": "municipal",
+            "region": None,
+            "district": "Vila Real",
+            "municipality": "Vila Real",
+            "sources": ["icalendario_municipais", "dirportugal_municipais", "aspl_municipais_pdf"],
+            "verification_status": "cross_checked",
+            "confidence": 0.85,
+        }
+    ]
+
+
 def test_district_disambiguates_duplicate_municipality_names():
     response = client.get(
         "/holidays",
